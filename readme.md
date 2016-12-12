@@ -1,25 +1,25 @@
 # Example of IoC and DI
 
-# Contracts
+## Contracts
 
 1. app/Contracts/TagInterface.php
 
-# Repository
+## Repository
 
 1. app/Repository/TagsRepository.php
 
-# Providers
+## Providers
 
 1. app/Providers/TagsServiceProvider.php
 
-# Provider config
+## Provider config
 
 1. config/app.php
 
-# Controllers
+## Controllers
 
 1. app/Http/Controllers/TagController.php
 
-# routes
+## routes
 
 1. app/Http/routes.php

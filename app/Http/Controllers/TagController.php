@@ -16,11 +16,11 @@ class TagController extends Controller
     		
     		$tags = $this->tags->get($request->get('filter'));
 
-    		return response()->json($this->tagsTranformer()->transformCollection($tags));
+    		return response()->json(['data' => $tags]);
 
     	} catch (Exception $e) {
     		
-
+            return response()->json(['message' => $e->getMessage()], 500);
     	}
     }
 
