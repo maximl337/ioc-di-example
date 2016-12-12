@@ -6,7 +6,7 @@
 
 ## Repository
 
-1. app/Repository/TagsRepository.php
+1. app/Repositories/TagsRepository.php
 
 ## Providers
 
